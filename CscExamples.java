@@ -24,12 +24,14 @@ public class CscExamples{
 	}
 	
 	public void addQuestion(CscExamples quiz){
-		
+		this.questionNo = quiz.questionNo;
+		this.category = quiz.category;
+		this.text = quiz.text;
 	}
 	public  void removeQuestion(int qId){
-		
+		//removeQuestion
 	}
 	public void editQuestion(int qId){
-		
+		//editQuestion
 	}
 }
