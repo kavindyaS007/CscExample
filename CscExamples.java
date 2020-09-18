@@ -3,6 +3,8 @@ public class CscExamples{
 	String category;
 	String text;
 	
+	
+	//getters and setters
 	public void setQuestionNo(int questionNo){
 		this.questionNo = questionNo;
 	}
